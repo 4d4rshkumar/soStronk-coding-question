@@ -42,7 +42,6 @@ def subset(m,lst,l):
                 score += round(int(lst[acc][1]) / m, 2)  # computing average
             acc += 1
         dic[score] = name[:-1]
-    print(dic)
     return dic
 
 
@@ -67,7 +66,6 @@ length = len(arr)
 if (length <= players or (players==2 and length==3) or length==3 ):
     print("Match is not possible")
     exit()
-print(arr)
 required_data=subset(players,arr,length)
 '''--------------------printing the quality of matches--------------------'''
 avg_scores=[]
