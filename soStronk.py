@@ -8,7 +8,6 @@
     if this happens match-making is not possible
 5. Pass the players, array of name and score and length of array in subset function
     this function chooses the unique subsets if length given in players
-
     this function works as converting numbers from 1- (2 raise to power length of array )-1 to binary
     then wherever it finds sum of 1's in binary equals to players in team it appends to a binop list
 6. A new dictionary is created and name of persons in team and their average score is stored, score is the
@@ -17,7 +16,6 @@
 8.  All the keys are taken and sorted
 9. From sorted keys middle 2 keys are taken and shown output and then removed from the list
 10. this process is repeated till the list is empty
-
 '''
 def subset(m,lst,l):
     '''------------------------finding the subsets---------------------------'''
